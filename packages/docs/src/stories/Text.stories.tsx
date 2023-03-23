@@ -1,43 +1,43 @@
-import { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@ignite-ui/react'
+import { StoryObj, Meta } from "@storybook/react";
+import { Text, TextProps } from "@ui-ignite/react";
 
 export default {
-  title: 'Typography/Text',
+  title: "Typography/Text",
   component: Text,
   args: {
-    children: 'Default example text',
-    size: 'md',
+    children: "Default example text",
+    size: "md",
   },
 
   argTypes: {
     size: {
       options: [
-        'xxs',
-        'xs',
-        'sm',
-        'md',
-        'lg',
-        'xl',
-        '2xl',
-        '4xl',
-        '5xl',
-        '6xl',
-        '7xl',
-        '8xl',
-        '9xl',
+        "xxs",
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "2xl",
+        "4xl",
+        "5xl",
+        "6xl",
+        "7xl",
+        "8xl",
+        "9xl",
       ],
       control: {
-        type: 'inline-radio',
+        type: "inline-radio",
       },
     },
   },
-} as Meta<TextProps>
+} as Meta<TextProps>;
 
-export const Primary: StoryObj<TextProps> = {}
+export const Primary: StoryObj<TextProps> = {};
 
 export const CustomTag: StoryObj<TextProps> = {
   args: {
-    children: 'Strong text',
-    as: 'strong',
+    children: "Strong text",
+    as: "strong",
   },
-}
+};
