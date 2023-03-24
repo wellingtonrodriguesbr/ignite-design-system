@@ -1,0 +1,2 @@
+import{A as t}from"./index.e2e32c31.js";import"./index.f28d647c.js";import"./iframe.195761d6.js";import"./index.fd21249f.js";import"./jsx-runtime.79c68970.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/wellingtonrodriguesbr.png",alt:"Wellington Rodrigues"},argTypes:{src:{control:{type:"text"}}}},l={},n={args:{src:void 0}},p=["Primary","WithFallback"];export{l as Primary,n as WithFallback,p as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.2a25c963.js.map
